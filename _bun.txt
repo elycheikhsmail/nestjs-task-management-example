@@ -1,0 +1,5 @@
+ 
+export BUN_INSTALL="/home/ely/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+bun install

@@ -1,0 +1,18 @@
+experiment existing project
+
+icon for the gui
+static commands
+  triview for listing existing commands and react when triview line click by opening new terminal/cmd 
+    and execute command
+  form for adding removing commands
+dynamic commands:
+  when clicked popup for reteving missing args
+
+benefit of cli to gui
+focus on code insting of writing comm on terminal
+
+
+this can be reimplement on deno when deno gui is ready
+this can be reimplement on node/electron  but is thekil
+
+python _cli_gui.py

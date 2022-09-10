@@ -1,0 +1,15 @@
+je dois utiliser des disque dure extern pour les projets frontend economiser de l'espace
+local gitlab pour versionner 
+
+suivre les videos tutorial sur nestjs et appliquer en parallels 
+en plus du test manuel 
+creer des test-deno pour tester automatiquement le fonctinnement
+
+local gestionnaire des version? => docker gitlab? + disque dure externe ?
+
+ui ionic-react au lieu d'angular app
+
+
+une fois terminer l'essentiell du tuto je creer eboutique rest-api+test
+
+

@@ -1,0 +1,6 @@
+npm install @nestjs/jwt @nestjs/passport passport passport-jwt
+npm install config --save
+ npm i --save @nestjs/config
+
+ 
+prograticly open terminal and run command inside this terminal using python then deno
