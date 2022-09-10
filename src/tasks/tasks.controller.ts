@@ -15,6 +15,7 @@ import {
   ValidationPipe,
 } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
+import { ApiBasicAuth, ApiBearerAuth, ApiSecurity, ApiTags } from '@nestjs/swagger';
 import { User } from 'src/auth/user.entity';
 import { CreateTaskDto } from './dto/create-task.dto';
 import { GetTasksFilterDto } from './dto/get-tasks-filter.dto';
@@ -23,6 +24,12 @@ import { TaskStatus } from './task-status-enum';
 import { Task } from './task.entity';
 import { TasksService } from './tasks.service';
 
+//// basic and bearer
+//@ApiSecurity('basic')
+//@ApiSecurity('bearer')
+@ApiBearerAuth()
+@ApiBasicAuth()
+@ApiTags('tasks')
 @Controller('tasks')
 @UseGuards(AuthGuard())
 export class TasksController {

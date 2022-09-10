@@ -7,11 +7,13 @@ import {
   ValidationPipe,
 } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
+import { ApiTags } from '@nestjs/swagger';
 import { AuthService } from './auth.service';
 import { AuthCridentialsDto } from './dto/auth-cridentials.dto';
 import { GetUser } from './get-user.decorator';
 import { User } from './user.entity';
 
+@ApiTags('auth')
 @Controller('auth')
 export class AuthController {
   constructor(private authService: AuthService) {}

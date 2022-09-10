@@ -19,12 +19,10 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
   //     ignoreExpiration: false,
   //     secretOrKey: 'topSecret1',
   //   });
- 
+
   // }
 
-
   constructor(
-
     @InjectRepository(User)
     private userRepository: Repository<User>,
   ) {
